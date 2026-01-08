@@ -9,7 +9,7 @@ async function sendTelegramMessage() {
 
     await axios.post(url, {
         chat_id: chatId,
-        text: 'Hello Praise, how are you'
+        text: 'Hello Praise, how are you doing today'
     });
 
     console.log('Telegram message sent');
